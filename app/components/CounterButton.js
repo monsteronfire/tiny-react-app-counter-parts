@@ -3,9 +3,7 @@ import React from 'react';
 class CounterButton extends React.Component {
   render() {
     return (
-      <div className='counter-button'>
-        <button>button</button>
-      </div>
+      <button className='counter-btn' onClick={this.props.onClick}>{this.props.text}</button>
     )
   }
 }
