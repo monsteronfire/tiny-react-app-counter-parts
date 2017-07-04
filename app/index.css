@@ -1,5 +1,29 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  background-color: #3ABEE3;
+  background-color: #FFCC00;
   color: white;
+}
+
+.counter {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3ABEE3;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.count {
+  color: #FFFFFF;
+}
+
+.counter-input {
+  margin-top: 20px;
+}
+
+.counter-input input {
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
 }

@@ -38,7 +38,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div className='counter'>
-        <h1>{this.state.count}</h1>
+        <h1 className='count'>{this.state.count}</h1>
         <CounterButton text="+" onClick={this.increment} />
         <CounterButton text="-" onClick={this.decrement} />
         <CounterInput value={this.state.value} onChange={this.handleChange} />
